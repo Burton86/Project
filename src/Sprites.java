@@ -1,11 +1,10 @@
-
 import java.awt.Graphics;
 
-public abstract class Sprite {
+public abstract class Sprites {
     protected int x;
     protected int y;
 
-    public Sprite(int x, int y) {
+    public Sprites(int x, int y) {
         this.x = x;
         this.y = y;
     }
