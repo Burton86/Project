@@ -10,7 +10,7 @@ public class CornTile extends Tile {
 
     public void draw(Graphics g, int x, int y) {
         g.setColor(new Color(22, 153, 10));
-        g.fillRect(x, y, BloonsRunner.PATH_WIDTH, BloonsRunner.PATH_WIDTH);
+        g.fillRect(x, y, BRunner.PATH_WIDTH, BRunner.PATH_WIDTH);
         g.setColor(Color.YELLOW);
         g.fillOval(x + 5, y + 5, 5, 5);
         g.fillOval(x + 15, y + 13, 5, 5);

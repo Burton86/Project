@@ -2,14 +2,14 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.util.ArrayList;
 
-public class NormalSprite extends Sprite {
+public class NormalSprite extends Sprites {
     public static int price = 100;
     public static final int radius = 120;
     public static int projectileDelay = 1000;
     public static ArrayList<NormalSprite> monkeys = new ArrayList<NormalSprite>();
 
     private int currentDelay = 1000;
-    public ArrayList<DartProjectile> projectiles = new ArrayList<DartProjectile>();
+    public ArrayList<Dart> projectiles = new ArrayList<Dart>();
 
     public NormalSprite(int x, int y) {
         super(x, y);
@@ -48,7 +48,7 @@ public class NormalSprite extends Sprite {
     }
 
     public void drawProjectiles(Graphics g) {
-        for (DartProjectile p : projectiles) {
+        for (Dart p : projectiles) {
             p.draw(g);
         }
     }

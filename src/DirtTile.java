@@ -1,7 +1,7 @@
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class DirtDisplay extends Tile {
+public class DirtTile extends Tile {
 
     public int getType() {
         return Tile.BALLOON_PATH;

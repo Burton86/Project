@@ -2,7 +2,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.util.ArrayList;
 
-public class NinjaSprite extends Sprite {
+public class NinjaSprite extends Sprites {
     public static final int price = 250;
     public static final int radius = 100;
     public static int projectileDelay = 500;
