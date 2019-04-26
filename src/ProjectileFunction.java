@@ -1,10 +1,10 @@
 import java.awt.Graphics;
 
-public abstract class Projectile {
+public abstract class ProjectileFunction {
     int x, y, xTarget, yTarget;
     double xVelocity, yVelocity;
 
-    public Projectile(int xStart, int yStart, int xTarget, int yTarget, double velocity) {
+    public ProjectileFunction(int xStart, int yStart, int xTarget, int yTarget, double velocity) {
         this.x = xStart;
         this.y = yStart;
         this.xTarget = xTarget;

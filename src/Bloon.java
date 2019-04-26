@@ -1,4 +1,4 @@
-java.awt.Color;
+import java.awt.Color;
 
 public class Bloon {
 
@@ -86,7 +86,7 @@ public class Bloon {
             for (int i = 0; i < coordinatesParam.length; i ++) {
                 if (coordinatesParam[i] == coordinates) {
                     if (i + 1 == coordinatesParam.length) {
-                        BloonsRunner.health -= layers;
+                        BRunner.health -= layers;
                         coordinates = new int[] {-1, -1};
                     } else {
                         coordinates = coordinatesParam[i + 1];
@@ -99,7 +99,7 @@ public class Bloon {
 
     public void pop() {
         layers --;
-        BloonsRunner.money ++;
+        BRunner.money ++;
         if (layers == 0) coordinates = new int[]{-1, -1};
     }
 

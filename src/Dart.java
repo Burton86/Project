@@ -1,9 +1,9 @@
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class DartProjectile extends Projectile {
+public class Dart extends ProjectileFunction {
 
-    public DartProjectile(int xStart, int yStart, int xTarget, int yTarget, double velocity) {
+    public Dart(int xStart, int yStart, int xTarget, int yTarget, double velocity) {
         super(xStart, yStart, xTarget, yTarget, velocity);
     }
 
@@ -15,14 +15,14 @@ public class DartProjectile extends Projectile {
 
     public void popBloons() {
         if (reachedTarget()) {
-            for (int i = 0; i < BloonsRunner.currentBloons.length; i ++) {
-                if (BloonsRunner.currentBloons[i].getCoordinates() == null) continue;
+            for (int i = 0; i < BRunner.currentBloons.length; i ++) {
+                if (BRunner.currentBloons[i].getCoordinates() == null) continue;
 
-                int xCoordOfBloon = (BloonsRunner.currentBloons[i].getCoordinates()[0] * BloonsRunner.PATH_WIDTH) + (BloonsRunner.PATH_WIDTH / 2);
-                int yCoordOfBloon = (BloonsRunner.currentBloons[i].getCoordinates()[1] * BloonsRunner.PATH_WIDTH) + (BloonsRunner.PATH_WIDTH / 2);
+                int xCoordOfBloon = (BRunner.currentBloons[i].getCoordinates()[0] * BRunner.PATH_WIDTH) + (BRunner.PATH_WIDTH / 2);
+                int yCoordOfBloon = (BRunner.currentBloons[i].getCoordinates()[1] * BRunner.PATH_WIDTH) + (BRunner.PATH_WIDTH / 2);
 
                 if (xTarget == xCoordOfBloon && yTarget == yCoordOfBloon) {
-                    BloonsRunner.currentBloons[i].pop();
+                    BRunner.currentBloons[i].pop();
                 }
             }
         }

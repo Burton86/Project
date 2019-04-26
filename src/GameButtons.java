@@ -1,11 +1,10 @@
-
-public class GameButton {
+public class GameButtons {
 
     int x, y, width, height;
 
     boolean hover = false;
 
-    public GameButton(int x, int y, int width, int height) {
+    public GameButtons(int x, int y, int width, int height) {
         this.x = x;
         this.y = y;
         this.width = width;

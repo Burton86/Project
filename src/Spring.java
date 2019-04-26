@@ -1,4 +1,4 @@
-public class SpringMap extends GameMap {
+public class Spring extends GameMap {
     String name;
 
     Tile[][] path = {
@@ -17,7 +17,7 @@ public class SpringMap extends GameMap {
 
     int[][] coordinates = {{0, 4},{1, 4},{2, 4},{3, 4},{4, 4},{5, 4},{6, 4},{7, 4},{8, 4},{9, 4},{10, 4},{11, 4},{12, 4},{13, 4},{14, 4},{15, 4},{16, 4},{17, 4}};
 
-    public SpringMap(String s) {
+    public Spring(String s) {
         super(s);
     }
 
