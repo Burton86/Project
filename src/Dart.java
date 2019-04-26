@@ -19,7 +19,7 @@ public class DartProjectile extends Projectile {
                 if (BRunner.currentBloons[i].getCoordinates() == null) continue;
 
                 int xCoordOfBloon = (BRunner.currentBloons[i].getCoordinates()[0] * BloonsRunner.PATH_WIDTH) + (BloonsRunner.PATH_WIDTH / 2);
-                int yCoordOfBloon = (BloonsRunner.currentBloons[i].getCoordinates()[1] * BloonsRunner.PATH_WIDTH) + (BloonsRunner.PATH_WIDTH / 2);
+                int yCoordOfBloon = (BRunner.currentBloons[i].getCoordinates()[1] * BloonsRunner.PATH_WIDTH) + (BloonsRunner.PATH_WIDTH / 2);
 
                 if (xTarget == xCoordOfBloon && yTarget == yCoordOfBloon) {
                     BloonsRunner.currentBloons[i].pop();
