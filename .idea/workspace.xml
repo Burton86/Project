@@ -209,6 +209,7 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="136">
               <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
 >>>>>>> 93c91778771ea49dc275f70f3c3b04f796092e34
@@ -218,6 +219,9 @@
 >>>>>>> 520225895fb8b3117ddc0101b867d9ff7f330aeb
 =======
             <state relative-caret-position="391">
+=======
+            <state relative-caret-position="-323">
+>>>>>>> 9fe5a842821adbb0b52d1a44a2d2b42525ce59da
               <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
 >>>>>>> a3fa05f12d131230ff839b2fc4a622fec0a3a34f
             </state>
@@ -300,9 +304,14 @@
 >>>>>>> 520225895fb8b3117ddc0101b867d9ff7f330aeb
 =======
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="264" />
     <option name="y" value="706" />
 >>>>>>> a3fa05f12d131230ff839b2fc4a622fec0a3a34f
+=======
+    <option name="x" value="252" />
+    <option name="y" value="951" />
+>>>>>>> 9fe5a842821adbb0b52d1a44a2d2b42525ce59da
     <option name="width" value="1400" />
     <option name="height" value="787" />
   </component>
@@ -507,8 +516,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="163" width="1400" height="787" extended-state="0" />
-    <editor active="true" />
+    <frame x="325" y="284" width="1400" height="787" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1343,6 +1351,7 @@
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="136">
           <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
 >>>>>>> 93c91778771ea49dc275f70f3c3b04f796092e34
@@ -1352,6 +1361,9 @@
 >>>>>>> 520225895fb8b3117ddc0101b867d9ff7f330aeb
 =======
         <state relative-caret-position="391">
+=======
+        <state relative-caret-position="-323">
+>>>>>>> 9fe5a842821adbb0b52d1a44a2d2b42525ce59da
           <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
 >>>>>>> a3fa05f12d131230ff839b2fc4a622fec0a3a34f
         </state>
