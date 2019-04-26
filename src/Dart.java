@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.awt.Color;
 import java.awt.Graphics;
 
@@ -52,3 +53,5 @@ public class Dart extends ProjectileFunction {
     }
 }
 
+=======
+>>>>>>> 520225895fb8b3117ddc0101b867d9ff7f330aeb
