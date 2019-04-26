@@ -15,7 +15,7 @@ public class DartProjectile extends Projectile {
 
     public void popBloons() {
         if (reachedTarget()) {
-            for (int i = 0; i < BloonsRunner.currentBloons.length; i ++) {
+            for (int i = 0; i < BRunner.currentBloons.length; i ++) {
                 if (BloonsRunner.currentBloons[i].getCoordinates() == null) continue;
 
                 int xCoordOfBloon = (BloonsRunner.currentBloons[i].getCoordinates()[0] * BloonsRunner.PATH_WIDTH) + (BloonsRunner.PATH_WIDTH / 2);
