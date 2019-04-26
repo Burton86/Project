@@ -19,14 +19,10 @@ public class Dart extends ProjectileFunction {
             for (int i = 0; i < BRunner.currentBloons.length; i ++) {
                 if (BRunner.currentBloons[i].getCoordinates() == null) continue;
 
-<<<<<<< HEAD
                 int xCoordOfBloon = (BRunner.currentBloons[i].getCoordinates()[0] * BRunner.PATH_WIDTH) + (BRunner.PATH_WIDTH / 2);
                 int yCoordOfBloon = (BRunner.currentBloons[i].getCoordinates()[1] * BRunner.PATH_WIDTH) + (BRunner.PATH_WIDTH / 2);
-=======
                 int xCoordOfBloon = (BRunner.currentBloons[i].getCoordinates()[0] * BloonsRunner.PATH_WIDTH) + (BloonsRunner.PATH_WIDTH / 2);
                 int yCoordOfBloon = (BRunner.currentBloons[i].getCoordinates()[1] * BloonsRunner.PATH_WIDTH) + (BloonsRunner.PATH_WIDTH / 2);
->>>>>>> 93c91778771ea49dc275f70f3c3b04f796092e34
-
                 if (xTarget == xCoordOfBloon && yTarget == yCoordOfBloon) {
                     BRunner.currentBloons[i].pop();
                 }
@@ -52,6 +48,3 @@ public class Dart extends ProjectileFunction {
         g.fillOval(x - 4, y - 4, 8, 8);
     }
 }
-
-=======
->>>>>>> 520225895fb8b3117ddc0101b867d9ff7f330aeb
