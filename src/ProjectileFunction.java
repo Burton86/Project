@@ -1,5 +1,4 @@
 import java.awt.Graphics;
-
 public abstract class Projectile {
     int x, y, xTarget, yTarget;
     double xVelocity, yVelocity;

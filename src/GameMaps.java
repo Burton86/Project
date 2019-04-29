@@ -1,5 +1,3 @@
-
-
 public abstract class GameMap {
 
     public GameMap(String s) {
